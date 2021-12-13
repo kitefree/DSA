@@ -1,0 +1,163 @@
+/*
+ DSA - top nav
+*/
+
+.top-nav{
+    height: 2.375rem;
+}
+
+.top-nav li+li:before {
+    color: rgba(255, 255, 255, .5);
+    content: ' | ';
+    display: inline-block;
+}
+
+.top-nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+.top-nav li a {
+    text-decoration: none;
+    color: #DADDE3;
+    padding: 0.312rem;
+}
+
+.top-nav li a:hover {
+    color: white;            
+}
+
+/*
+ DSA - footer
+*/
+
+.footer{
+    background-image: linear-gradient(-180deg, $primary 0%, #134870 100%);
+}
+
+
+/*
+ DSA - text
+*/
+.text-justify{
+    text-align:justify;    
+}
+
+/* 
+ DSA - toc
+*/
+.toc-nav li.active>a {
+    color: #333;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+
+.toc-nav {
+    padding-left: 0;
+    top:1rem;
+}
+
+.toc-nav a {
+    text-decoration: none;
+    display: block;
+    padding: .125rem 0;
+    color: #ccc;
+    transition: all 50ms ease-in-out;
+    background-color: #F2F4F7;
+}
+
+.toc-nav a:hover,
+.toc-nav a:focus {
+    color: #000;
+}
+
+
+.toc-plan {
+    border-left: 0.75rem solid #F2F4F7;
+}
+
+.toc-plan:hover {
+    font-weight: bold;
+}
+
+.toc-plan-active {
+    border-left: 0.75rem solid #145E98;
+}
+
+.toc-plan-active>a {
+    color: #000;
+    font-weight: bold;
+}
+
+.toc-plan-no-active {
+    border-left: 0.75rem solid #145E98;
+    color: #000;
+}
+
+.toc-plan-no-active>a {
+    font-weight: bold;
+}
+
+.toc-plan-sub i{
+    top:4px;
+    position: relative;
+}
+
+
+
+/*
+ DSA - Content
+*/
+.content-title {
+    border-bottom: 0.1875rem solid #91CAE2;
+    background-color: #F2F4F7;
+    padding: 0.3125rem;
+
+}
+
+.content-sub-title {
+    color: #145E98;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
+/* DSA - Scroll button */
+
+#btnTop {
+    display: none;
+    border: none;
+    outline: none;
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.25rem;
+    z-index: 99;           
+    background-color: #145E98;
+    color: white;
+    cursor: pointer;
+    padding: 0.625rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+
+#btnIcon {
+    border: none;
+    outline: none;
+    position: fixed;
+    bottom: 5.25rem;
+    right: 1.25rem;
+    z-index: 99;
+    background-color: #145E98;
+    color: white;
+    cursor: pointer;
+    padding: 0.625rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+  }

@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="臺灣學生學習成就評量資料庫始於民國93年試行，教育部為協助各縣市其學生學習能力檢測之測驗標準化，乃於2009年委請本院所屬之「臺灣學生學習成就評量資料庫」團隊。" >
+	<meta name="keywords" content="國家教育研究院學生學習成就資料">
+    <meta http-equiv="Pragma" content="No-cache">    
+    <meta http-equiv="Widow-target" content="_top">
+    <title>DSA 國家教育研究院學生學習成就資料</title>
+
+    <link rel="shortcut icon" href="./images/favicon_DSA.svg" />
+    <link rel="bookmark" href="./images/favicon_DSA.svg" />
+
+    <link rel="stylesheet" href="./scss/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- top nav -->
+        <div class="container-fluid shadow d-none d-md-block bg-primary top-nav">
+            <nav>
+                <ul class="list-unstyled">
+                    <li><a accesskey="U" href="#start-U" id="start-U" class="text-decoration-none" 
+                            title="上方導覽連結區">:::</a></li>
+                    <li><a href="https://www.naer.edu.tw/">國家教育研究院</a></li>
+                    <li><a href="https://tasal.naer.edu.tw/dsa">首頁</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- mobile nav -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary d-md-none d-sm-block fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white fs-6 fw-bold" href="#">DSA - 臺灣學生學習成就評量資料庫</a>
+                <button class="navbar-toggler border border-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list text-white"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ">
+                        <li class="nav-item border-white border-bottom border-1">
+                            <a class="nav-link" style="color:#EBB036" href="index.html"><i class="bi bi-circle-fill  me-1"></i>臺灣學生學習成就評量資料庫</a>
+                        </li>
+                        <li class="nav-item ps-3 active">
+                            <a class="nav-link text-white" href="#plan_introduction">簡介</a>
+                        </li>
+
+                        <li class="nav-item ps-3">
+                            <a class="nav-link text-white" href="#plan_purpose">目的與用途</a>
+                        </li>
+
+                        <li class="nav-item ps-3">
+                            <a class="nav-link text-white" href="#plan_scope">調查範圍與對象</a>
+                        </li>
+
+                        <li class="nav-item ps-3">
+                            <a class="nav-link text-white" href="#plan_achievement">評量架構與試題</a>
+                        </li>
+
+                        <li class="nav-item ps-3">
+                            <a class="nav-link text-white" href="#plan_release">釋出資料管理</a>
+                        </li>
+                        <li class="nav-item ps-3">
+                            <a class="nav-link text-white" href="#plan_contact">聯繫方式</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black-50" href="rap.html"><i class="bi bi-circle-fill me-1"></i>協助縣市辦理學力檢測資料</a>
+                        </li>
+
+                </div>
+            </div>
+        </nav>
+        <!-- logo -->
+        <div class="container">
+            <div class="row my-4 ">
+                <div class="col-md-12 pe-0">
+                    <div class="row mt-sm-5 mt-5 mt-md-0 mx-sm-0 g-0">
+                        <div class="col-md-12 ">
+                            <img class="img-fluid" alt="國家教育研究院學生學習成就資料 logo" id="header_logo" src="images/LOGO_001.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <!-- toc -->
+                <div class="col-md-3 d-none d-md-block">
+                    <a accesskey="L" href="#start-L" id="start-L" class="text-decoration-none" title="主選單連結區">:::</a>
+                    <!-- desktop nav -->
+                    <nav class="toc-nav position-sticky">
+                        <ol class="list-unstyled">
+                            <li class="toc-plan toc-plan-active"><a class="d-block py-2 my-2 ps-2 fw-bold"
+                                    href="index.html">臺灣學生學習成就評量資料庫</a></li>
+                            <li class="toc-plan-sub">
+                                <ul class="list-unstyled">
+                                    <li class="px-3 py-2"><a href="#plan_introduction"><i
+                                                class="bi bi-dash fs-3" ></i>簡介</a>
+                                    </li>
+                                    <li class="px-3 py-2"><a href="#plan_purpose"><i class="bi bi-dash fs-3"
+                                                ></i>目的與用途</a></li>
+                                    <li class="px-3 py-2"><a href="#plan_scope"><i class="bi bi-dash fs-3"
+                                                ></i>調查範圍與對象</a></li>
+                                    <li class="px-3 py-2"><a href="#plan_achievement"><i
+                                                class="bi bi-dash fs-3"
+                                                ></i>評量架構與試題</a></li>
+                                    <li class="px-3 py-2"><a href="#plan_release"><i class="bi bi-dash fs-3"
+                                                ></i>釋出資料管理</a></li>
+                                    <li class="px-3 py-2"><a href="#plan_contact"><i class="bi bi-dash fs-3"
+                                                ></i>聯繫方式</a></li>
+                                </ul>
+                            </li>
+                            <li class="toc-plan toc-plan-no-active"><a href="rap.html"
+                                    class="d-block py-2 my-2 ps-2 fw-bold">協助縣市辦理學力檢測資料</a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-md-9 col-sm-12 shadow p-3 my-2 bg-body rounded">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a accesskey="C" href="#start-C" id="start-C" class="text-decoration-none"
+                                title="主要內容區">:::</a>
+                            <section id="plan_introduction">
+                                <h4 class="mb-3 fw-bold content-title position-sm-sticky">簡介</h4>
+                                <p class="mb-3 text-justify">
+                                    臺灣學生學習成就評量資料庫（Taiwan Assessment of Student Achievement,
+                                    簡稱TASA）始於民國93年試行，於95年起由國家教育研究院接手相調查工作。自97年起調整施測週期為國小、國中、高中職，每年段3年一輪循環。
+                                </p>
+                            </section>
+                        </div>
+                        <div class="col-md-12 my-3">
+                            <section id="plan_purpose">
+                                <h4 class="mb-3 fw-bold content-title position-sm-sticky">目的與用途</h4>
+                                <p class="mb-3 text-justify">1. 提供標準化的學習成就資料，作為分析學生學習成就上差異表現變項資料，以評估學生未來在學術方面能力之發展與社會期許。
+                                </p>
+                                <p class="mb-3 text-justify">2.
+                                    瞭解國內學校教學及學生學習成效之現況，作為課程與教學政策改進之參考，並為縣市政府教育局及學校推動補救教學之重要參據。</p>
+                                <p class="mb-3 text-justify">3. 提供量化資料，提供國內外相關研究人員，深入探討學生學習成就相關政策議題。</p>
+                            </section>
+                        </div>
+                        <div class="col-md-12 my-3">
+                            <section id="plan_scope">
+                                <h4 class="mb-3 fw-bold content-title position-sm-sticky">調查範圍與對象</h4>
+                                <p class="mb-3 content-sub-title">
+                                    調查範圍與對象
+                                </p>
+                                <p class="mb-3 text-justify">
+                                    調查主要對象為國小四、六年級、國中二年級、高中職二年級學生，每三年一輪方式施行各年度調查。各科目年級對應如下圖所示。
+                                </p>
+                                <img src="images/tasa_01.png" alt="調查範圍與對象表格" class="img-fluid">
+
+                                <p class="mb-3">
+                                    每位學生調查2考科及1問卷
+                                </p>
+                                <p class="mb-3 text-justify">
+                                    在受測科目方面，分別為國語文、英語文、數學、自然、社會（小學四年級不考英語文與社會），因每位學生受測兩種不同科目，考科組合共有下列10種：（小四扣除英語文與社會科組合僅有3種）國語文及英語文、國語文及數學、國語文及自然、國語文及社會、英語文及數學、英語文及自然、英語文及社會、數學及自然、數學及社會、自然及社會。
+                                    在共同問卷方面，每名學生均需填寫，目的在搜集學生學習、家庭等背景資料，以為資料庫變項分析使用。
+                                </p>
+
+                                <p class="mb-3 content-sub-title">
+                                    抽樣設計
+                                </p>
+                                <p class="mb-3 text-justify">
+                                    在行政區域分層變數下，各縣市規劃抽樣學校數依據各縣市實際國小學校數比例進行分配；再以學校規模為分層變數，將各縣市規劃抽樣學校數依據學校規模大、中、小學校數比例進行分配。
+                                    經過行政區域與學校規模分層後，將每個層級下的學校依據PPS抽樣方法抽取樣本學校，再進一步從樣本學校抽取樣本班級，並計算樣本班級的樣本學生數。
+                                    為改善縣市抽樣代表性不足，訂定抽樣準則為：單科單縣市至少施測400人。如果各縣市原定的抽樣規劃如無法達到此準則，則加抽學校。其中，澎湖、金門、連江三縣市因母群學生數與準則差異不大，因此三縣市進行普測而非抽測。
+                                </p>
+                            </section>
+                        </div>
+                        <div class="col-md-12 my-3">
+                            <section id="plan_achievement">
+                                <h4 class="mb-3 fw-bold content-title">評量架構與試題</h4>
+                                <p class="mb-3 content-sub-title">各年段評量架構</p>
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>年段/科目</th>
+                                            <th>國語文</th>
+                                            <th>英語文</th>
+                                            <th>數學</th>
+                                            <th>自然</th>
+                                            <th>社會</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>國小</td>
+
+                                            <td><a href="/files/tasa/894599203.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/893325841.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/39645428.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/746519072.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/196111584.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>國中</td>
+                                            <td><a href="/files/tasa/114459052.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/184276285.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/140962724.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/133093856.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/788327265.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>高中職</td>
+                                            <td><a href="/files/tasa/59988154.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/680273833.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/137265214.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/721210229.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/116805590.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="mb-3 content-sub-title">各年段公告範例試題</p>
+
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>年段/科目</th>
+                                            <th>國語文</th>
+                                            <th>英語文</th>
+                                            <th>數學</th>
+                                            <th>自然</th>
+                                            <th>社會</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>國小、國中</td>
+                                            <td><a href="/files/tasa/571816568.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/122649832.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/51071835.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/191852064.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/819359900.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>高中、高職</td>
+                                            <td><a href="/files/tasa/160517288.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/151770019.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/974897662.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/137628570.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                            <td><a href="/files/tasa/937901221.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </section>
+                        </div>
+                        <div class="col-md-12 my-3">
+                            <section id="plan_release">
+                                <h4 class="mb-3 fw-bold content-title">釋出資料管理</h4>
+                                <h6>各年度對應釋出項目資料，詳如資料清冊，說明如下：</h6>
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>項目</th>
+                                            <th>內容</th>
+                                            <th>格式</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody  class="text-justify">
+                                        <tr>
+                                            <td>選擇題試題作答反應</td>
+                                            <td>該年度學生作答之國、英、數、自、社各科選擇題作答反應</td>
+                                            <td>
+                                                <ol>
+                                                    <li>csv檔，內含受測學生編號、試題反應編碼說明、試題題組標示、試題區塊對照表及試題測驗內容對照表</li>
+                                                    <li><u>不提供考題</u></li>
+                                                </ol>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>建構題試題及作答反應：</td>
+                                            <td>該年度國語文及數學建構題（國語文為作文、數學僅小四、六及國中二年級有建構題）。</td>
+                                            <td>
+                                                <ol>
+                                                    <li>csv檔，含受測學生編號、建構題試題、評分標準及計分。</li>
+                                                    <li><u>提供考題</u></li>
+                                                </ol>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>共同問卷</td>
+                                            <td>該年度學生作答之共同問卷原始資料。</td>
+                                            <td>
+                                                <ol>
+                                                    <li>csv檔，內含受測學生編號、共同問卷編碼簿、考科問卷編碼簿。</li>
+                                                    <li><u>各年度問卷下載。</u></li>
+                                                </ol>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <h6>問卷釋出內容，大致可歸納如下：學生背景變項、家庭結構、學習歸因、學習策略、學習特質等五大類，歷年相關問卷題目如下：</h6>
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>年度（年）</th>
+                                            <th>年段</th>
+                                            <th>下載</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>2016</td>
+                                            <td>國中學校/學生問卷</td>
+                                            <td>
+                                                <a href="/files/tasa/2016學校問卷.pdf" target="_blank" class="d-inline"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a>
+                                                <a href="/files/tasa/2016學生問卷.pdf" target="_blank" class="d-inline"
+                                                    ><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2015</td>
+                                            <td>國小</td>
+                                            <td><a href="/files/tasa/129436857.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2014</td>
+                                            <td>高中及高職</td>
+                                            <td><a href="/files/tasa/83122258.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2013</td>
+                                            <td>國中</td>
+                                            <td><a href="/files/tasa/765808309.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2012</td>
+                                            <td>國小</td>
+                                            <td><a href="/files/tasa/590496522.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2011</td>
+                                            <td>高中及高職</td>
+                                            <td><a href="/files/tasa/202703733.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2010</td>
+                                            <td>國中</td>
+                                            <td><a href="/files/tasa/893480870.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2009</td>
+                                            <td>國小</td>
+                                            <td><a href="/files/tasa/111962778.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2007</td>
+                                            <td>國小、國中、高中及高職三年段</td>
+                                            <td><a href="/files/tasa/157433544.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2006</td>
+                                            <td>國小、國中、高中及高職三年段</td>
+                                            <td><a href="/files/tasa/175381323.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2005</td>
+                                            <td>國小六年級</td>
+                                            <td><a href="/files/tasa/841119115.pdf" target="_blank"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-2 text-danger"></i>下載</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3">
+                                                *目前釋出年段僅2009年起，2008年未施測，故無相關資料。<br>*若需申請統計資料，請詳「釋出資料申請」</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="mb-3 content-sub-title">釋出資料申請</p>
+
+                                <h6>一、依本院「臺灣學生學習成就評量資料庫」資料申請處理原則辦理。</h6>
+                                <h6>二、符合下列資格始得申請</h6>
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>類別</th>
+                                            <th>人員</th>
+                                            <th>申請資料</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody  class="text-justify">
+                                        <tr>
+                                            <td>第一類</td>
+                                            <td>國內公立研究機構及國內公私立大專院校之專任研究人員、專任教師、博士後研究人員及公務機關人員，需於申請時提供可辨識身份之證件上傳。</td>
+                                            <td>學生層級之資料</td>
+                                        </tr>
+                                        <tr>
+                                            <td>第二類</td>
+                                            <td>國內外公私立大專院校碩、博士班在學學生，經指導教授於資料申請書上親筆簽名（碩、博士班在學學生若尚無指導教授，則請所長於資料申請書上親筆簽名）。
+                                            </td>
+                                            <td>學生層級之資料</td>
+                                        </tr>
+                                        <tr>
+                                            <td>第三類</td>
+                                            <td>本院所屬研究人員（含博士後研究人員）、公務人員、行政人員。</td>
+                                            <td>學生及學校層級資料</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3">資料清冊如附件。</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <h6>三、各申請案採線上申請及審查，流程如下：</h6>
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>步驟</th>
+                                            <th>內容</th>
+                                            <th>備註</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody  class="text-justify">
+                                        <tr>
+                                            <td>1</td>
+                                            <td>閱讀並填寫資料使用申請書（含共同使用者申請書）、資料使用合約書</td>
+                                            <td><a href="/files/tasa/臺灣學生學習成就評量資料庫資料使用申請書.docx"
+                                                    target="_blank"  class="text-decoration-none"><i class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>申請書</a><br><a
+                                                    href="/files/tasa/臺灣學生學習成就評量資料庫資料使用合約書.doc"
+                                                    target="_blank" class="text-decoration-none"><i class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>合約書</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>至釋出資料申請網頁（<a href="https://tasarelease.naer.edu.tw/"
+                                                    target="_blank">tasarelease</a>）填寫基本資料、勾選想要申請資料，並完成說明1申請書上傳
+                                            </td>
+                                            <td><a href="/files/tasa/國家教育研究院臺灣學生學習成就評量資料庫資料清冊.pdf"
+                                                    target="_blank"  class="text-decoration-none"><i class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>資料清冊</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>本院接獲申請案後進行線上審查後回復，審查時間約1個月，審查重點如下：<br>
+                                                (1) 申請資料是否為研究計畫內容所需。<br>
+                                                (2) 研究問題分析與研究方法應用是否正確。
+                                            </td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </section>
+                        </div>
+                        <div class="col-md-12 my-3">
+                            <section id="plan_contact">
+                                <h4 class="mb-3 fw-bold content-title">聯繫方式</h4>
+                                <p class="mb-3 text-justify">
+                                    申請資料時如遇共同使用者，須在資料申請表上將其同時列為資料使用人，並註明共同使用者個人基本資料，共同遵守資料使用規定。若有問題可來信詢問：wantiend@mail.naer.edu.tw，張宛婷小姐。
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid footer">
+
+            <div class="row text-center">
+                <div class="col-12 text-white my-2 fs-6">
+                    Copyright © 2022 國家教育研究院學生學習成就資料
+                </div>
+            </div>
+            <div class="row text-center justify-content-center">
+                <div class="col-8"><img class="img-fluid" alt="國家教育研究院" src="./images/footer_logo08_resize.png">
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <a id="btnTop" href="javascript:goTop()" class="fs-6" title="Go to top">TOP</a>
+    <a id="btnIcon" href="javascript:changeIcon()" class="fs-6" title="Go to top">Icon</a>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ"
+        crossorigin="anonymous"></script>
+
+    <script src="lib/js/index.js"></script>
+
+</body>
+
+</html>
