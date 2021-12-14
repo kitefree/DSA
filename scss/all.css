@@ -10761,6 +10761,11 @@ fieldset:disabled .btn {
   font-weight: bold;
 }
 
+section p::selection {
+  background-color: #36AA96;
+  color: white;
+}
+
 /* DSA - Scroll button */
 #btnTop {
   display: none;
