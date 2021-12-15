@@ -114,6 +114,11 @@
 /*
  DSA - Content
 */
+.customers th {
+    /* background-color: #36AA96; */
+    background-color: #145E98;    
+    color: white;
+}
 .content-title {
     border-bottom: 0.1875rem solid #91CAE2;
     background-color: #F2F4F7;
@@ -128,7 +133,7 @@
 }
 
 
-section p::selection{
+::selection{
     background-color: #36AA96;       
     color:white;     
 }
