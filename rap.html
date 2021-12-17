@@ -17,14 +17,13 @@
     <link rel="stylesheet" href="./scss/all.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
-
 </head>
 
 <body>
     <!-- header -->
     <header>
         <!-- top nav -->
-        <div class="container-fluid shadow d-none d-md-block bg-primary top-nav">
+        <div class="container-fluid shadow d-none d-md-block bg-primary top-nav position-sticky top-0">
             <nav class="top-nav">
                 <ul class="list-unstyled">
                     <li><a accesskey="U" href="#start-U" id="start-U" class="text-decoration-none"
@@ -84,8 +83,9 @@
             <div class="row my-4 ">
                 <div class="col-md-12 pe-0">
                     <div class="row mt-sm-5 mt-5 mt-md-0 mx-sm-0 g-0">
-                        <div class="col-md-12 ">
-                            <img class="img-fluid" alt="國家教育研究院學生學習成就資料 logo" id="header_logo" src="images/LOGO_001.png">
+                        <div class="col-md-12">
+                            <img class="img-fluid" alt="國家教育研究院學生學習成就資料 logo" id="header_logo"
+                                src="images/LOGO_002.png">
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,11 @@
                             <section id="plan_introduction">
                                 <h4 class="mb-3 fw-bold content-title">簡介</h4>
                                 <p class="mb-3 text-justify">
-                                    教育部為協助各縣市其學生學習能力檢測之測驗標準化，乃於2009年委請本院所屬之「臺灣學生學習成就評量資料庫」團隊，規劃協助縣市辦理學生學習能力檢測計畫，並自2010至2012年期間進行國小四年級國語文及數學2科目之施測。本計畫自2013年開始改以國小五年級學生為檢測對象，並籌組試題團隊獨立研發統一題本，施測規模及施測業務則由參與縣市負責。
+                                    教育部為協助各縣市其學生學習能力檢測之測驗標準化，於2009年委請本院所屬之「臺灣學生學習成就評量資料庫」團隊，規劃協助縣市辦理學生學習能力檢測計畫（以下簡稱學力檢測）。
+                                    各縣市為瞭解學生學習狀況，及早發現待加強學生並啟動積極性教學介入，自2016年起，積極尋求本院合作，將檢測對象向下延伸至國小二、三年級，施測科目也從國語文與數學兩科，增加五年級英語科，同時回應部分縣市對於國中學生學習能力的檢測需求，2016年起亦開始小規模試辦國中一、二年級國語文、數學及英語三科施測。
+                                </p>
+                                <p class="mb-3 text-justify">
+                                    為有效整合縣市資源，本院於2016年和2017年與參與縣市簽訂工作計畫協議書。其中第七條第（一）項有關著作及成果報告中略以：「本院除學生個人基本資料予以保密外，得基於學術研究、政策參考及教學回饋等情形，彈性運用研究成果。」是以釋出相關資料。
                                 </p>
                             </section>
                         </div>
@@ -147,240 +151,363 @@
                             <section id="plan_purpose">
                                 <h4 class="mb-3 fw-bold content-title">目的與用途</h4>
                                 <p class="mb-3 text-justify">
-                                    為瞭解學生學習狀況，及早發現待加強學生，及早啟動積極性教學介入，自2016年起，檢測對象向下延伸至國小二、三、五年級，施測科目也從國語文及數學2科，增加五年級英語科。同時回應部分縣市對於國中學生學習能力有檢測需求，2016年起亦開始小規模試辦國中一、二年級國語文、數學及英語3科施測，未來將依實施成效評估擴大辦理可能性。
+                                    1. 協助縣市將學習能力檢測工具與程序標準化，降低各縣試題研發量，減少預試人數，減低縣市命題壓力與預試成本。
                                 </p>
+                                <p class="mb-3 text-justify">
+                                    2.
+                                    本院實施方式為遵循國際大型測驗評量方式、建立各學科領域專家之工作團隊，以及確立學科評量架構，並依評量架構採以聯合命題方式，建立參與縣市共同之標準化評量工具，提供更具體且詳實之數據分析、試題內容解析，以及教學輔導建議資料。
+                                </p>
+                                <p class="mb-3 text-justify">
+                                    3. 由縣市自行評估提出參與檢測規模（人數、班級數、校數、科目），本院根據其需求，提供題本予各縣市。2016與2017年起，檢測對象依學習階段而分為國中與國小。
+                                </p>
+
                             </section>
                         </div>
                         <div class="col-md-12 my-3">
                             <section id="plan_scope">
                                 <h4 class="mb-3 fw-bold content-title">調查範圍與對象</h4>
                                 <p class="mb-3 text-justify">
-                                    縣市策略結盟縣市，依評量架構以聯合命題方式，建立參與縣市共同之標準化評量工具，提供更具體且詳實之數據分析及試題內容解析與教學輔導建議資料。檢測年段：國小二年級、三年級、五年級，國中一年級、二年級。檢測科目：國語文、英語文、數學。考試題型：選擇題型、選填題型。
+                                    調查主要對象為國小二、三、五年級，國中一、二年級學生。
                                 </p>
+                                <p class="mb-3 text-justify">
+                                    各科目年級對應如下圖所示。
+                                </p>
+                                <img src="images/rap001.png" class="img-fluid w-50 h-50" alt="調查範圍與對象圖示">
+
+                                <p class="mb-3 text-justify">
+                                    在受測科目方面，分別為國語文、英語文、數學（小學二、三年級未施測英語文）。
+                                </p>
+                                <p class="mb-3 text-justify"></p>
+                                在考試題型方面，分別為選擇題、選填題。
+                                </p>
+
+
+
                             </section>
                         </div>
                         <div class="col-md-12 my-3">
                             <section id="plan_achievement">
                                 <h4 class="mb-3 fw-bold content-title">評量架構與試題</h4>
 
-                                <h6>評量架構與歷年試題</h6>
-                                <table class="table table-striped table-hover">
+                                <p class="mb-3 content-sub-title">評量架構與歷年試題</p>
+                                <table class="table  table-bordered customers text-center align-middle">
                                     <thead>
                                         <tr>
-                                            <th>年段</th>
-                                            <th>下載</th>
+                                            <th>類別</th>
+                                            <th>檔案</th>
+                                            <th>檔案</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>2017</td>
-                                            <td><a href="./files/rap/2017.zip"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
+                                            <td>學力檢測評量向度與範例題</td>
+                                            <td><a
+                                                    href="./files/rap/%E5%AD%B8%E5%8A%9B%E6%AA%A2%E6%B8%AC%E5%9C%8B%E4%B8%AD%E6%AE%B5%E8%A9%95%E9%87%8F%E5%90%91%E5%BA%A6%E8%88%87%E7%AF%84%E4%BE%8B%E9%A1%8C_1060215.pdf"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>國中段下載</a>
                                             </td>
-
+                                            <td> <a
+                                                    href="./files/rap/%E5%AD%B8%E5%8A%9B%E6%AA%A2%E6%B8%AC%E5%9C%8B%E5%B0%8F%E6%AE%B5%E8%A9%95%E9%87%8F%E5%90%91%E5%BA%A6%E8%88%87%E7%AF%84%E4%BE%8B%E9%A1%8C_1060215.pdf"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>國小段下載</a>
+                                            </td>
                                         </tr>
                                         <tr>
-                                            <td>2016</td>
+                                            <td>2016-2017年學力檢測正式施測題本（含答案）</td>
+                                            <td><a href="./files/rap/2017.zip"><i
+                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>2017下載</a>
+                                            </td>
                                             <td><a href="./files/rap/901327204.zip"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
+                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>2016下載</a>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td>2015</td>
-                                            <td><a href="./files/rap/213884975.zip"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2014</td>
-                                            <td><a href="./files/rap/195070525.zip"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2013</td>
-                                            <td><a href="./files/rap/172714851.zip"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2012</td>
-                                            <td><a href="./files/rap/153137233.zip"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2011</td>
-                                            <td><a href="./files/rap/320558388.zip"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2010</td>
-                                            <td><a href="./files/rap/987084257.zip"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
-                                        </tr>
+
                                     </tbody>
                                 </table>
-                                <h6>學力檢測評量向度與範例題</h6>
-                                <table class="table table-striped table-hover">
+                                <p class="mb-3 content-sub-title">成果報告</p>
+                                <table class="table  table-bordered customers text-center align-middle">
                                     <thead>
                                         <tr>
-                                            <th>年段</th>
-                                            <th>下載</th>
+                                            <th>年度（年）</th>
+                                            <th>檔案</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>國小段</td>
-                                            <td><a href="./files/rap/%E5%AD%B8%E5%8A%9B%E6%AA%A2%E6%B8%AC%E5%9C%8B%E5%B0%8F%E6%AE%B5%E8%A9%95%E9%87%8F%E5%90%91%E5%BA%A6%E8%88%87%E7%AF%84%E4%BE%8B%E9%A1%8C_1060215.pdf"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>國中段</td>
-                                            <td><a href="./files/rap/%E5%AD%B8%E5%8A%9B%E6%AA%A2%E6%B8%AC%E5%9C%8B%E4%B8%AD%E6%AE%B5%E8%A9%95%E9%87%8F%E5%90%91%E5%BA%A6%E8%88%87%E7%AF%84%E4%BE%8B%E9%A1%8C_1060215.pdf"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <h6>成果報告(2017-2010 學力檢測相關報告及說明)</h6>
-                                <table class="table table-striped table-hover">
-                                    <thead>
-                                        <tr>
-                                            <th>年段</th>
-                                            <th>下載</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>2017</td>
+                                            <td>2017年</td>
                                             <td><a href="./files/rap/2017.zip"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
+                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>2017下載</a>
                                             </td>
-                                        </tr>
+                                        </tr>                                        
                                         <tr>
-                                            <td>2016</td>
+                                            <td>2016年</td>
                                             <td><a href="./files/rap/185554782.zip"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2015</td>
-                                            <td><a href="./files/rap/170609305.zip"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2014</td>
-                                            <td><a href="./files/rap/157274685.zip"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2013</td>
-                                            <td><a href="./files/rap/86778838.zip"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2012</td>
-                                            <td><a href="./files/rap/121720639.zip"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>2010</td>
-                                            <td><a href="./files/rap/770864067.zip"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
+                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>2016下載</a>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
-                                <h6>09/27學力回饋研習PPT</h6>
-                                <table class="table table-striped table-hover">
+                                <p class="mb-3 content-sub-title">105學年協助縣市辦理學力檢測工作計畫（2017年9月27日研習PPT）</p>
+                                <table class="table  table-bordered customers text-center align-middle">
                                     <thead>
                                         <tr>
-                                            <th>年段</th>
-                                            <th>下載</th>
+                                            <th>科目</th>
+                                            <th>檔案</th>
                                         </tr>
                                     </thead>
+                                    <tr>
+                                        <td>國語</td>
+                                        <td>
+                                            <a href="./files/rap/ppt/1.國中段國文-洪儷瑜教授.pptx"><i
+                                                    class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>國中段國文-洪儷瑜教授</a>
+                                            <br>
+                                            <a href="./files/rap/ppt/2.國小段國文-陳明蕾教授.pptx"><i
+                                                    class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>國小段國文-陳明蕾教授</a>
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>英語</td>
+                                        <td>
+                                            <a href="./files/rap/ppt/3.1國中段英文-李壹明老師.pptx"><i
+                                                    class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>國中段英文-李壹明老師</a>
+                                            <br>
+                                            <a href="./files/rap/ppt/3.2國中段英文-名娟老師&興皇.ppt"><i
+                                                    class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>國中段英文-謝名娟老師</a>
+                                            <br>
+                                            <a href="./files/rap/ppt/4.1國小段英文-蔡幸蓉講師.pdf"><i
+                                                    class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>國小段英文-蔡幸蓉講師</a>
+                                            <br>
+                                            <a href="./files/rap/ppt/4.2國小段英文-名娟老師&興皇.ppt"><i
+                                                    class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>國小段英文-謝名娟老師</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>數學</td>
+                                        <td>
+                                            <a href="./files/rap/ppt/5.1國中段數學-左台益教授.pptx"><i
+                                                    class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>國中段數學-左台益教授</a>
+                                            <br>
+                                            <a href="./files/rap/ppt/5.2國中段數學-慧珉老師.pdf"><i
+                                                    class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>國中段數學-吳慧珉老師</a>
+                                            <br>
+                                            <a href="./files/rap/ppt/6.1國小段數學-許德田校長.pptx"><i
+                                                    class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>國小段數學-許德田校長</a>
+                                            <br>
+                                            <a href="./files/rap/ppt/6.2國小段數學-慧珉老師.pdf"><i
+                                                    class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>國小段數學-吳慧珉老師</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p class="mb-3 content-sub-title">資料清單</p>
+
+
+
+                                <table class="table  table-bordered customers text-center align-middle">
+                                    
                                     <tbody>
                                         <tr>
-                                            <td>國中段國文-洪儷瑜教授</td>
-                                            <td><a href="./files/rap/ppt/1.國中段國文-洪儷瑜教授.pptx"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
+                                            <th rowspan="2">施測年度</th>
+                                            <th rowspan="2">年段</th>
+                                            <th rowspan="2">科目</th>
+                                            <th colspan="2">學科測驗</th>
                                         </tr>
                                         <tr>
-                                            <td>國小段國文-陳明蕾教授</td>
-                                            <td><a href="./files/rap/ppt/2.國小段國文-陳明蕾教授.pptx"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
+                                            <th>選擇題試題作答反應</th>
+                                            <th>選填題試題作答反應</th>
                                         </tr>
                                         <tr>
-                                            <td>國中段英文-李壹明老師</td>
-                                            <td><a href="./files/rap/ppt/3.1國中段英文-李壹明老師.pptx"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
+                                            <td rowspan="11">2017</td>
+                                            <td>國小二年級</td>
+                                            <td>國</td>
+                                            <td><i class="bi bi-check-lg text-primary fs-5"></i></td>
+                                            <td>&nbsp;</td>
                                         </tr>
                                         <tr>
-                                            <td>國中段英文-謝名娟老師</td>
-                                            <td><a href="./files/rap/ppt/3.2國中段英文-名娟老師&興皇.ppt"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
+
+                                            <td>國小三年級</td>
+                                            <td>數</td>
+                                            <td><i class="bi bi-check-lg text-primary fs-5"></i></td>
+                                            <td>&nbsp;</td>
                                         </tr>
                                         <tr>
-                                            <td>國小段英文-蔡幸蓉講師</td>
-                                            <td><a href="./files/rap/ppt/4.1國小段英文-蔡幸蓉講師.pdf"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
+
+                                            <td rowspan="3">國小五年級</td>
+                                            <td>國</td>
+                                            <td><i class="bi bi-check-lg text-primary fs-5"></i></td>
+                                            <td>&nbsp;</td>
                                         </tr>
                                         <tr>
-                                            <td>國小段英文-謝名娟老師</td>
-                                            <td><a href="./files/rap/ppt/4.2國小段英文-名娟老師&興皇.ppt"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
+                                            <td>數</td>
+                                            <td><i class="bi bi-check-lg text-primary fs-5"></i></td>
+                                            <td>&nbsp;</td>
                                         </tr>
                                         <tr>
-                                            <td>國中段數學-左台益教授</td>
-                                            <td><a href="./files/rap/ppt/5.1國中段數學-左台益教授.pptx"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
+
+                                            <td>英</td>
+                                            <td><i class="bi bi-check-lg text-primary fs-5"></i></td>
+                                            <td>&nbsp;</td>
                                         </tr>
                                         <tr>
-                                            <td>國中段數學-吳慧珉老師</td>
-                                            <td><a href="./files/rap/ppt/5.2國中段數學-慧珉老師.pdf"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
+
+                                            <td rowspan="3">國中一年級</td>
+                                            <td>國</td>
+                                            <td><i class="bi bi-check-lg text-primary fs-5"></i></td>
+                                            <td><i class="bi bi-check-lg text-primary fs-5"></i></td>
                                         </tr>
                                         <tr>
-                                            <td>國小段數學-許德田校長</td>
-                                            <td><a href="./files/rap/ppt/6.1國小段數學-許德田校長.pptx"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
+                                            <td>數</td>
+                                            <td><i class="bi bi-check-lg text-primary fs-5"></i></td>
+                                            <td>&nbsp;</td>
                                         </tr>
                                         <tr>
-                                            <td>國小段數學-吳慧珉老師</td>
-                                            <td><a href="./files/rap/ppt/6.2國小段數學-慧珉老師.pdf"><i
-                                                        class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>下載</a>
-                                            </td>
+
+                                            <td>英</td>
+                                            <td><i class="bi bi-check-lg text-primary fs-5"></i></td>
+                                            <td>&nbsp;</td>
+                                        </tr>
+                                        <tr>
+
+                                            <td rowspan="3">國中二年級</td>
+                                            <td>國</td>
+                                            <td><i class="bi bi-check-lg text-primary fs-5"></i></td>
+                                            <td>&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td>數</td>
+                                            <td><i class="bi bi-check-lg text-primary fs-5"></i></td>
+                                            <td><i class="bi bi-check-lg text-primary fs-5"></i></td>
+                                        </tr>
+                                        <tr>
+
+                                            <td>英</td>
+                                            <td><i class="bi bi-check-lg text-primary fs-5"></i></td>
+                                            <td>&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="2">2016</td>
+                                            <td rowspan="2">國小二年級</td>
+                                            <td>國</td>
+                                            <td><i class="bi bi-check-lg text-primary fs-5"></i></td>
+                                            <td>&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td>數</td>
+                                            <td><i class="bi bi-check-lg text-primary fs-5"></i></td>
+                                            <td>&nbsp;</td>
                                         </tr>
                                     </tbody>
                                 </table>
+                                <!-- Codes by Quackit.com -->
+
+
+
                             </section>
                         </div>
                         <div class="col-md-12 my-3">
                             <section id="plan_release">
                                 <h4 class="mb-2 fw-bold content-title" id="plan02_release">釋出資料管理</h4>
-                                <h6>釋出項目及格式</h6>
-                                <p class="mb-3">（待補）？</p>
-                                <h6>（待補）釋出要點</h6>
-                                <p class="mb-3">（待補）？</p>
-                                <h6>（待補）申請書、合約書、資料清單</h6>
-                                <p class="mb-3">（待補）？</p>
+                                <p class="mb-3 content-sub-title">釋出項目及格式</p>
+                                <p class="mb-3">學力檢測釋出項目資料，說明如下：</p>
+                                <table class="table  table-bordered customers text-center align-middle">
+                                    <thead>
+                                        <tr>
+                                            <th>項目</th>
+                                            <th>內容</th>
+                                            <th>格式</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>2016、2019年度試題作答反應</td>
+                                            <td>
+                                                <p class="mb-3 text-justify">
+                                                    2016年：學生作答之國小二、三年級國、數作答反應，國小五年級、國中一、二年級國、英、數作答反應</p>
+                                                <p class="mb-3 text-justify">
+                                                    2017年：學生作答之國小二年級國作答反應，國小三年級數作答反應，國小五年級、國中一、二年級國、英、數作答反應</p>
+                                            </td>
+                                            <td>
+                                                <p class="mb-3 text-justify">1、 csv檔，內含受測學生編號、學校碼、班級碼及試題反應編碼說明</p>
+                                                <p class="mb-3 text-justify">2、 提供考題</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!-- 共用start -->
+                                <p class="mb-3 content-sub-title">釋出要點 / 線上申請與審查</p>
+                                <h6>學生學習成就資料申請</h6>
+                                <h6>一、依本院「臺灣學生學習成就評量資料庫」資料申請處理原則辦理。</h6>
+                                <h6>二、符合下列資格始得申請</h6>
+                                <table class="table  table-bordered customers text-center align-middle">
+                                    <thead>
+                                        <tr>
+                                            <th>類別</th>
+                                            <th>人員</th>
+                                            <th>申請資料</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="text-justify">
+                                        <tr>
+                                            <td>第一類</td>
+                                            <td>第一類申請者：國內學術研究機構及國內公私立大專院校之專任研究人員（含博士後研究）、專任教師，以及公務機關人員，需於申請時提供可辨識身分之證件上傳。
+                                            </td>
+                                            <td>學生層級之資料</td>
+                                        </tr>
+                                        <tr>
+                                            <td>第二類</td>
+                                            <td>第二類申請者：國內外公私立大專院校博碩士在學學生，經指導教授於資料申請書上親筆簽名（若尚無指導教授，則請所長於資料使用申請書上親筆簽名）。
+                                            </td>
+                                            <td>學生層級之資料</td>
+                                        </tr>
+                                        <tr>
+                                            <td>第三類</td>
+                                            <td>第三類申請者：本院所屬研究人員（含博士後研究）、公務人員，以及行政人員。</td>
+                                            <td>學生及學校層級資料</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <h6>三、各申請案採線上申請及審查，流程如下：</h6>
+                                <table class="table  table-bordered customers text-center align-middle">
+                                    <thead>
+                                        <tr>
+                                            <th>步驟</th>
+                                            <th>內容</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td class="text-justify">閱讀並填寫資料使用申請書（含共同使用者申請書）、資料使用合約書</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td class="text-justify">至釋出資料申請網頁（<a href="https://tasarelease.naer.edu.tw/"
+                                                    target="_blank">tasarelease</a>）填寫基本資料、勾選想要申請資料，並完成說明1申請書上傳
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td class="text-justify">本院接獲申請案後進行線上審查後回復，審查時間約1個月，審查重點如下：<br>
+                                                (1) 申請資料是否為研究計畫內容所需。<br>
+                                                (2) 研究問題分析與研究方法應用是否正確。
+                                            </td>                                            
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="mb-3 content-sub-title">文件下載</p>
+                                <div class="row d-flex justify-content-between">
+                                    <div class="col-md-4 col-sm-12"><a href="./files/tasa/臺灣學生學習成就評量資料庫資料使用申請書.docx" target="_blank"
+                                        class="text-decoration-none me-4"><i
+                                            class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>附件1.資料清單（.pdf）</a></div>
+                                    <div class="col-md-4 col-sm-12"><a
+                                        href="./files/tasa/臺灣學生學習成就評量資料庫資料使用合約書.doc" target="_blank"
+                                        class="text-decoration-none me-4"><i
+                                            class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>附件2.資料使用申請書（.doc）</a></div>
+                                    <div class="col-md-4 col-sm-12"><a href="./files/tasa/國家教育研究院臺灣學生學習成就評量資料庫資料清冊.pdf" target="_blank"
+                                        class="text-decoration-none me-4"><i
+                                            class="bi bi-cloud-arrow-down-fill fs-3 text-danger"></i>附件3.資料使用合約書（.doc）</a> </div>
+                                </div>
+                                
+                                                               
+                                <!-- 共用end -->
                             </section>
                         </div>
                         <div class="col-md-12 my-3">
